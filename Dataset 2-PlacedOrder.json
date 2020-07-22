@@ -1,0 +1,16 @@
+db.PlacedOrder.insert({"orderId": "ORD131","manufacturer": "Honda"})
+db.PlacedOrder.insert({"orderId": "ORD11","manufacturer": "Ferrai"})
+db.PlacedOrder.insert({"orderId": "ORD130","manufacturer": "BMW"})
+
+db.PlacedOrder.insert({
+  "orderId": "ORD131",
+   "manufacturer": "Honda"
+})
+db.PlacedOrder.insert({
+  "orderId": "ORD11",
+   "manufacturer": "Ferrai"
+})
+db.PlacedOrder.insert({
+  "orderId": "ORD130",
+   "manufacturer": "BMW"
+})

@@ -1,0 +1,32 @@
+{
+db.Order.insert({"orderId": "ORD31",
+			"Set": {"orderStatus": "Scheduled for Manufacturing"}})
+db.Order.insert({"orderId": "ORD32","Set": {"orderStatus": "Placed"}})
+db.Order.insert({"orderId": "ORD33","Set": {"orderStatus": "Scheduled for Manufacturing"}})
+db.Order.insert({"orderId": "ORD34","Set": {"orderStatus": "Placed"}})
+}
+
+db.Order.insert({
+  "orderId": "ORD31",
+ 
+   "Set": {
+   "orderStatus": "Scheduled for Manufacturing"}
+})
+db.Order.insert({
+  "orderId": "ORD32",
+ 
+   "Set": {
+   "orderStatus": "Placed"}
+})
+db.Order.insert({
+  "orderId": "ORD33",
+ 
+   "Set": {
+   "orderStatus": "Scheduled for Manufacturing"}
+})
+db.Order.insert({
+  "orderId": "ORD34",
+ 
+   "Set": {
+   "orderStatus": "Placed"}
+})
